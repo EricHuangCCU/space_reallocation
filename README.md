@@ -43,9 +43,9 @@
 
 
 # space allocating version3
-1.改用greedy作法，解決overlap問題，速度及擺放效果比DP好
+1.改用greedy作法，解決overlap問題，速度及擺放效果比DP好(參考2D_bin_packing.py)
 
-2.將2D做法修改並套用到3D上
+2.將2D做法修改並套用到3D上(參考3D_bin_packing.py)
 
 ## problem
 1.擺放邏輯可以有改進空間
