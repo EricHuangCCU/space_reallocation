@@ -40,3 +40,14 @@
 1.version1視覺化後可以發現有蠻多無視物理規則的情況
 
 2.DP做出來會有overlap的情形
+
+
+# space allocating version3
+1.改用greedy作法，解決overlap問題，速度及擺放效果比DP好
+
+2.將2D做法修改並套用到3D上
+
+## problem
+1.擺放邏輯可以有改進空間
+
+2.未考慮物件堆疊的部分
