@@ -61,3 +61,29 @@
 1.堆疊邏輯的好壞有待公評(參考3D_bin_packing_V2.py)
 
 3.物件偵測效果差 + 從照片無法得知三維訊息，就我查到的資料來看，似乎要搭配特殊的相機或是影片以及搭配一些AI輔助才有辦法(?(參考detect_obj.ipynb)
+
+# space allocating version5
+使用三種做法掃描物件並比較其優劣 :
+
+	1.使用深度鏡頭獲得之深度圖做輪廓掃描(參考kinect2.py)
+
+	2.深度鏡頭 + point cloud + DBSCAN(參考pointCloud_detect.py)
+
+	3.一般鏡頭 + mediapipe套件(參考mediapipe_detect.py)
+
+ ## problem
+ 做法1+做法2:
+ 
+    電腦效能不足，在使用open3D套件時無法及時將每一幀畫面算出來
+
+    Kinect生成的depth image雜訊偏多，容易掃描到非物件的東西
+
+    掃描到物件後還需要再搭配模型去辨認物體類別
+做法3:
+
+    只能針對特定幾種物件做掃描
+
+
+    
+
+
