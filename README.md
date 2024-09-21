@@ -83,7 +83,8 @@
 
     只能針對特定幾種物件做掃描
 
+# space allocating version6
+version4 結合UI實現模式切換以及即時更新排序狀況(參考selectScreen.py)
 
-    
-
-
+## problem
+有待檢驗
